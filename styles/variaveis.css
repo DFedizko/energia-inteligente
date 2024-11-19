@@ -1,0 +1,17 @@
+:root {
+    /* CORES */
+    --cor-de-fundo: black;
+    --cor-de-fundo-secundaria: #18181C;
+
+    --gradiente-principal: linear-gradient(to right, aqua, #8054FF);
+    --gradiente-secundario: linear-gradient(-14deg, #8054FF 10%, aqua 100%); 
+
+    /* GRADIENTE ALTERNATIVO ROXO
+    --gradiente-principal: linear-gradient(to right, #FF9898, #8054FF);
+    --gradiente-secundario: linear-gradient(-14deg, #8054FF 10%, #FF9898 100%); */
+
+    /* FONTES */
+    --cor-primaria: #FFFFFF;
+    --cor-secundaria: #9E9E9E;
+    --fonte-principal: 'Poppins', sans-serif;
+}
