@@ -2,9 +2,10 @@
     /* CORES */
     --cor-de-fundo: black;
     --cor-de-fundo-secundaria: #18181C;
+    --cor-de-fundo-terciaria: #222228;
 
     --gradiente-principal: linear-gradient(to right, aqua, #8054FF);
-    --gradiente-secundario: linear-gradient(-14deg, #8054FF 10%, aqua 100%); 
+    --gradiente-secundario: linear-gradient(-45deg, #8054FF 10%, aqua 100%); 
 
     /* GRADIENTE ALTERNATIVO ROXO
     --gradiente-principal: linear-gradient(to right, #FF9898, #8054FF);

@@ -14,49 +14,127 @@
 </head>
 <body>
     <header class="cabecalho">
-        <div class="logo">
-            <img src="" alt="LOGO">
+
+        <a href="./index.html" class="logo-container">
+            <img class="logo__imagem" src="./assets/images/logo-energia-inteligente.svg" alt="LOGO"
+                width="65px"
+                height="65px">
             <h2 class="logo__titulo">Energia Inteligente</h2>
-        </div>
+        </a>
+      
         <ul class="cabecalho__lista">
-            <li class="lista__item"><a href="#">PÁGINA 1</a></li>
-            <li class="lista__item"><a href="#">PÁGINA 2</a></li>
+            <li class="lista__item"><a href="#">SOBRE NÓS</a></li>
+            <li class="lista__item"><a href="#">PLANOS</a></li>
         </ul>
     </header>
+
     <main>
         <section class="secao-principal">
-            <h1 class="principal__titulo">Solução proposta pela Energia Inteligente</h1>
-            <p class="principal__descricao">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Id dolorum atque error, at modi a qui pariatur obcaecati nisi.</p>
-            <button class="principal__botao">Texto para botão</button>
+            <h1 class="principal__titulo">Eficiência Energética ao Alcance de Todos</h1>
+
+            <div class="principal__iluminacao"></div>
+            
+            <p class="principal__descricao">Transforme desperdício em economia real e contribua para um futuro sustentável.</p>
 
             <!-- COLOCAR O VÍDEO PITCH AQUI - SUBSTITUIR TAG IFRAME MANTENDO A CLASSE DELA -->
              <div class="principal__container-video">
-                 <iframe class="principal__video" width="560" height="315" src="https://www.youtube.com/embed/AsZilEnQhRs?si=H_m4W-7dRrL4o2HC" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+                 <iframe class="principal__video" src="https://www.youtube.com/embed/AsZilEnQhRs?si=H_m4W-7dRrL4o2HC" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
                  <img class="principal__gradiente" src="./assets/images/gradiente.svg" alt="Gradiente">
              </div>
         </section>
 
+        <section class="introducao">
+            <h2 class="introducao__titulo">O Primeiro Passo para Reduzir Sua Conta de Luz</h2>
+            <p class="introducao__descricao">Reduzir sua conta de luz é mais simples do que você imagina. Com apenas algumas informações básicas, nossa plataforma oferece soluções personalizadas para economizar e cuidar do meio ambiente.</p>
+
+            <ul class="introducao__cards">
+                <li class="card">
+                    <h2 class="card__passo">1</h2>
+                    <h3 class="card__titulo">Passo 1 - Informe seus Dados:</h3>
+                    <p class="card__descricao">Preencha informações sobre os aparelhos e os horários em que eles são utilizados.</p>
+                </li>
+                <li class="card">
+                    <h2 class="card__passo">2</h2>
+                    <h3 class="card__titulo">Passo 2 - Receba Dicas Personalizadas:</h3>
+                    <p class="card__descricao">Nossa IA analisa seus dados e sugere práticas simples para reduzir o consumo.</p>
+                </li>
+                <li class="card">
+                    <h2 class="card__passo">3</h2>
+                    <h3 class="card__titulo">Passo 3 - Projeção de Economia:</h3>
+                    <p class="card__descricao">Veja relatórios claros sobre o quanto você pode economizar e o impacto ambiental que pode causar.</p>
+                </li>
+            </ul>
+            <h3 class="introducao__subtitulo">Pronto para transformar seu consumo em economia real? 
+                <br> 
+                <span class="introducao__descricao">Clique abaixo e descubra agora mesmo!</span>
+            </h3>
+            <button class="introducao__botao" href="#">Começar Agora</button>
+        </section>
+
         <section class="integrantes">
-            <h2 class="itnegrantes__titulo">Equipe Energia Inteligente</h2>
+            <h2 class="integrantes__titulo">Quem Somos</h2>
+            <p class="integrantes__descricao">Somos uma equipe apaixonada por tecnologia e sustentabilidade, dedicada a criar soluções que transformem o uso de energia em economia real.</p>
 
             <ul class="integrantes__lista">
                 <li class="integrante">
-                    <img class="integrante__imagem" src="./assets/images/foto-haley.jpg" alt="Foto do Haley Frande">
-                    <h3 class="integrante__nome">Haley Frande - RM556651</h3>
-                    <p class="integrante__descricao">Desenvolvedor</p>
+                    <div class="integrante__container">
+                        <img class="integrante__imagem" src="./assets/images/foto-haley.jpg" alt="Foto do Haley Frande">
+                        <h3 class="integrante__nome">Haley Frande</h3>
+                        <p class="integrante__descricao">Desenvolvedor
+                            <br>
+                            <span class="integrante__descricao">RM556651</span>
+                        </p>
+                    </div>
                 </li>
                 <li class="integrante">
-                    <img class="integrante__imagem" src="./assets/images/foto-fedizko.jpg" alt="Foto do Pedro Fedizko">
-                    <h3 class="integrante__nome">Pedro Fedizko - RM558283</h3>
-                    <p class="integrante__descricao">Desenvolvedor</p>
+                    <div class="integrante__container">
+                        <img class="integrante__imagem" src="./assets/images/foto-fedizko.jpg" alt="Foto do Pedro Fedizko">
+                        <h3 class="integrante__nome">Pedro Fedizko</h3>
+                        <p class="integrante__descricao">Desenvolvedor
+                            <br>
+                            <span class="integrante__descricao">RM558283</span>
+                        </p>
+                    </div>
                 </li>
                 <li class="integrante">
-                    <img class="integrante__imagem" src="./assets/images/foto-danilo.jpg" alt="Foto do Danilo Nascimento">
-                    <h3 class="integrante__nome">Danilo Nascimento - RM555138</h3>
-                    <p class="integrante__descricao">Storytelling e MVP</p>
+                    <div class="integrante__container">
+                        <img class="integrante__imagem" src="./assets/images/foto-danilo.jpg" alt="Foto do Danilo Nascimento">
+                        <h3 class="integrante__nome">Danilo Nascimento</h3>
+                        <p class="integrante__descricao">Storytelling e MVP
+                            <br>
+                            <span class="integrante__descricao">RM555138</span>
+                        </p>
+                    </div>
                 </li>
             </ul>
         </section>
+
+        <section class="fale-conosco">
+            <img class="fale-conosco__imagem" src="./assets/images/globo.svg" alt="Imagem de Globo">
+            <form class="fale-conosco__formulario">
+                <h2 class="formulario__titulo">Fale Conosco</h2>
+                <p class="formulario__descricao">Sua opinião é muito importante para nós! Envie dúvidas, sugestões ou mensagens e faremos o possível para responder o mais rápido possível.</p>
+                <input class="formulario__input" type="email" id="input-email" placeholder="Seu Email">
+                <input class="formulario__input" type="text" id="input-nome" placeholder="Seu Nome">
+                <textarea class="formulario__input" type="text" id="mensagem" placeholder="Escreva sua Mensagem" rows="4"></textarea>
+                <button class="formulario__botao">Enviar</button>
+            </form>
+        </section>
     </main>
+
+    <footer class="rodape">
+        <ul class="rodape__lista">
+            <li class="rodape__lista__container">
+                <img class="logo__imagem logo-rodape" src="./assets/images/logo-energia-inteligente.svg" alt="LOGO" width="55px" height="55px">
+                <p class="rodape__descricao">&copy Todos os Direitos Reservados pela Energia Inteligente 2024</p>
+            </li>
+
+            <li class="rodape__lista__container redes">
+                <a class="container__icone" href="#"><img src="./assets/icons/instagram.svg" alt="Instagram" width="25px" height="25px"></a>
+                <a class="container__icone" href="#"><img src="./assets/icons/facebook.svg" alt="Facebook" width="25px" height="25px"></a>
+                <a class="container__icone" href="#"><img src="./assets/icons/github.svg" alt="Github" width="25px" height="25px"></a>
+            </li>
+        </ul>
+    </footer>
 </body>
 </html>
