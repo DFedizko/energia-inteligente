@@ -54,13 +54,14 @@ body {
     color: var(--cor-secundaria);
 }
 
-.lista-valores {
+.lista-valores-item {
     list-style-type: disc;
+    margin-left: 20px;
+    font-size: 1.125rem;
     color: var(--cor-primaria);
 }
 
-.lista-valores-item {
-    font-size: 1.125rem;
+.lista-valores-item span {
     color: var(--cor-secundaria);
 }
 
