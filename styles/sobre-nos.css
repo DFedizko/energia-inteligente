@@ -54,9 +54,10 @@ body {
     color: var(--cor-secundaria);
 }
 
-.lista-valores {
+.lista-valores li {
     list-style-type: disc;
     color: var(--cor-primaria);
+    margin-left: 20px;
 }
 
 .lista-valores-item {
