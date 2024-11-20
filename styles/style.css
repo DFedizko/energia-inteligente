@@ -1,6 +1,0 @@
-@import url(./variaveis.css);
-
-* {
-    color: var(--cor-primaria);
-    font-family: 'Poppins', sans-serif;
-}

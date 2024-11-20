@@ -1,6 +1,11 @@
 @import url(./reset.css);
 @import url(./variaveis.css);
 
+* {
+    color: var(--cor-primaria);
+    font-family: 'Poppins', sans-serif;
+}
+
 body {
     background-color: var(--cor-de-fundo);
 }
