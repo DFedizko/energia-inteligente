@@ -1,3 +1,18 @@
+* {
+    /* RESET CSS */
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    list-style: none;
+    outline: none;
+
+    color: var(--cor-primaria);
+    font-family: 'Poppins', sans-serif;
+    
+}
+
+/* VARIÁVEIS */
 :root {
     /* CORES */
     --cor-de-fundo: black;
