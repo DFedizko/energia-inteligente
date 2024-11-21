@@ -33,8 +33,8 @@
         <h1 class="precos__titulo">Planos</h1>
 
         <div class="mensal-anual-container">
-            <button class="botao-mensal" id="botao-mensal">Mensal</button>
-            <button class="botao-anual" id="botao-anual" disabled>Anual</button>
+            <button class="botao-mensal botao-ativado" id="botao-mensal">Mensal</button>
+            <button class="botao-anual" id="botao-anual">Anual</button>
         </div>
         
         <ul class="planos">
@@ -108,7 +108,7 @@
 
                 <hr class="plano__barra">
                 <div class="plano__preco-container">
-                    <h2 class="plano__valor">R$25<span class="plano__descricao">/mês</span></h2>
+                    <h2 class="plano__valor" id="preco-plus">R$25<span class="plano__descricao">/mês</span></h2>
                     <button class="plano__botao-inscrever">Inscreva-se Já</button>
                 </div>
             </li>
@@ -147,11 +147,13 @@
 
                 <hr class="plano__barra">
                 <div class="plano__preco-container">
-                    <h2 class="plano__valor">R$50<span class="plano__descricao">/mês</span></h2>
+                    <h2 class="plano__valor" id="preco-premium">R$50<span class="plano__descricao">/mês</span></h2>
                     <button class="plano__botao-inscrever">Inscreva-se Já</button>
                 </div>
             </li>
         </ul>
     </main>
+
+    <script src="../scripts/planos.js"></script>
 </body>
 </html>

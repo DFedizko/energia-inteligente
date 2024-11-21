@@ -49,8 +49,7 @@ body {
     color: var(--cor-secundaria);
 }
 
-.botao-mensal:enabled,
-.botao-anual:enabled {
+.botao-ativado {
     background: var(--gradiente-principal);
     color: var(--cor-primaria);
 }
