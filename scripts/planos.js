@@ -18,11 +18,3 @@ botaoAnual.addEventListener('click', function() {
     precoPlus.innerHTML = 'R$250<span class="plano__descricao">/ano</span>';
     precoPremium.innerHTML = 'R$500<span class="plano__descricao">/ano</span>';
 });
-
-function ativarBotao(botao) {
-    botao.disabled = false; // Habilita o botão
-}
-
-function desativarBotao(botao) { 
-    botao.disabled = true; // Desabilita o botão
-}

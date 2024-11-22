@@ -19,12 +19,14 @@
         <form class="formulario">
             <h1 class="formulario__titulo">Login</h1>
             <p class="formulario__descricao">Faça o login para ter acesso as nossas melhores tecnologias e planos.</p>
-            <input type="email" placeholder="Email" class="formulario__input email">
-            <input type="password" placeholder="Senha" class="formulario__input senha">
-            <button class="formulario__botao">Login</button>
+            <input type="text" placeholder="Usuário" class="formulario__input email" id="login-usuario">
+            <input type="password" placeholder="Senha" class="formulario__input senha" id="login-senha">
+            <button type="submit" class="formulario__botao" onclick="logar()">Entrar</button>
             <p class="formulario__descricao">Não possui uma conta? <a class="formulario__link" href="./registrar.html">Registre-se aqui.</a></p>
         </form>
     </main>
+
+    <script src="../scripts/register.js"></script>
 </body>
 </html>
 

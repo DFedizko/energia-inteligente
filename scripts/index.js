@@ -1,3 +1,4 @@
+// FALE CONOSCO
 const email = document.getElementById('input-email');
 const nome = document.getElementById('input-nome');
 const mensagem = document.getElementById('mensagem');
