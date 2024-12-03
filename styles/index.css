@@ -307,6 +307,7 @@ body {
 .rodape {
     background-color: var(--cor-de-fundo-secundaria);
     padding: 1rem 0;
+    z-index: 0;
 }
 
 .rodape__lista {
